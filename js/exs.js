@@ -102,13 +102,13 @@
 // console.log(airplaneSeats)
 
 //pp 50
-// let product = {
-//     productName: 'crochet',
-//     inStock: true,
-//     price: 1.99,
-//     moeda: '€',
-//     colors: ['vermelho', 'azul', 'verde'] 
-// }
-// product.price = 2.55
+let product = {
+    productName: 'crochet',
+    inStock: true,
+    price: 1.99,
+    moeda: '€',
+    colors: ['vermelho', 'azul', 'verde'] 
+}
+product.price = 2.55
 
 // console.log('o produto custa '+product.price +product.moeda+' e a cor é '+product.colors[2])

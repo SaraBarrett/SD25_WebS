@@ -1,5 +1,9 @@
 //funcção sem argumentos
+
+let globalVar = 'qq coisa';
+
 function helloClass(){
+    let localVar = 'sou uma variável local';
     alert('olá turma de Software Developer');
 }
 
@@ -13,10 +17,21 @@ function hello(greetScope){
     alert('olá '+greetScope)
 }
 
-function sum(x, y){
-   let total = x+y
-  return total;
-}
+// function sum(x, y){
+//    let total = x+y
+//   return total;
+// }
+
+// const sum = function(x,y){
+//       let total = x+y
+//       return total;
+// };
+
+const sum = (x,y) =>{
+    let total = x+y
+      return total;
+} 
+
 
 let total2 = sum(4, 6)
 console.log(total2)
